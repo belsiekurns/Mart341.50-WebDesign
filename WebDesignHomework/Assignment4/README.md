@@ -1,1 +1,6 @@
-
+- Web browsers give us the ability to access and view websits. If I type in a URL, the browser will find where the site is located online, requests its content, and gets back files such as HTML. It reads the HTML to make the website structured and organized and this is known as DOM, which is a tree like structure of a website.
+- DOM stands for Document Object Model, it is a tree like structure that shows all the parts of the website. It breaks the HTML down into elements.
+- HTML is used as a websites foundation and structure, XML describes nodes (pictures, images, headings), and XHTML is basically a bridge between XML and HTML.
+- Four essential elements an HTML needs is the document type, the root element, the head element, and the body element.
+- The purpose of the index.html page is used in situatuons such as when the URL is passed to browser that doesn't specify a title, the index can then be requested from the websites host. There can be mutliple index pages, but there always has to be one on the homepage of the site.
+- Some naming processes for clean and organized code is to avoid multiple subdirectories, you should start with a root folder and name it root, then you always have to have an index.html file under the root file (it HAS to be called index.html, and sub pages will also be under the root with very specific names. 
