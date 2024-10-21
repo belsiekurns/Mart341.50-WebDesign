@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cultural Wellness Blog</title>
+    <style>
+        body {
+            background-color: snow; /* snow background color */
+            color: green; /* green text color */
+        }
+        
+        main {
+            padding: 20px; /* Space around content */
+        }
+
+        table {
+            width: 100%; /* Full-width table */
+            border-collapse: collapse; /* Remove gaps between borders */
+        }
+
+        th, td {
+            border: 1px solid #ccc; /* Light gray border */
+            padding: 10px; /* Space inside cells */
+            text-align: left; /* Align text to the left */
+        }
+
+        th {
+            background-color: #e6e6fa; /* Light lavender background for header */
+        }
+
+        form {
+            margin-top: 20px; /* Space above the form */
+            background-color: #f9f9f9; /* Light gray background for the form */
+            padding: 15px; /* Padding inside the form */
+            border: 1px solid #ccc; /* Light gray border for the form */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Cultural Wellness Blog</h1>
+    <p>Exploring Native American wellness practices!</p>
+    <img src="https://bloximages.chicago2.vip.townnews.com/capjournal.com/content/tncms/assets/v3/editorial/3/7d/37de74e4-5e5a-11ea-b4ad-7f9aae4443a3/5e6015765650b.image.jpg?resize=1098%2C500" />
+
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="README.md">README</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+
+    <main>
+        <h2>Product Comparison Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Select</th>
+                    <th>Product Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Sweet Grass Incense</td>
+                    <td>A calming incense made from dried sweet grass.</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Buffalo Tallow Balm</td>
+                    <td>Moisturizing balm made from buffalo tallow.</td>
+                    <td>$15.00</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Sage Smudge Stick</td>
+                    <td>A traditional smudging tool for cleansing.</td>
+                    <td>$8.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Suggestions</h2>
+        <form action="mailto:kelsie.burns@umconnect.umt.edu?subject=Suggested%20Activity" method="post" enctype="text/plain" id="suggestionForm" class="suggestion-form">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <p>Thanks for visiting!</p>
+    </footer>
+</body>
+</html>
+
