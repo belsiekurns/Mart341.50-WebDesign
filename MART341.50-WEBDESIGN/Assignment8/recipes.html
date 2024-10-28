@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Page</title>
+    <style>
+        body {
+            background-color: snow;
+            color: green;
+        }
+
+        .recipe {
+            border: 1px solid #ccc; /* Light gray border */
+            margin-bottom: 20px; /* Space between recipes */
+            padding: 15px; /* Space inside the recipe box */
+        }
+
+        .recipe h2 {
+            color: purple; /* Purple heading for recipes */
+        }
+
+        .recipe img {
+            width: 100%; /* Responsive image */
+            height: auto; /* Maintain aspect ratio */
+        }
+        
+        .video {
+            width: 100%; /* Full width for video */
+            height: 315px; /* Fixed height */
+        }
+    </style>
+</head>
+<body>
+    <h1>Delicious Recipes</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="README.md">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <div class="recipe" id="recipe1">
+            <h2>Sweet Grass Tea</h2>
+            <img src="https://example.com/sweet-grass-tea.jpg" alt="A cup of sweet grass tea">
+            <p>Ingredients:</p>
+            <ul>
+                <li><span>1 cup</span> dried sweet grass</li>
+                <li><span>2 cups</span> water</li>
+            </ul>
+            <p>Instructions:</p>
+            <ol>
+                <li>Boil the water.</li>
+                <li>Add sweet grass and let steep for 10 minutes.</li>
+                <li>Strain and enjoy!</li>
+            </ol>
+        </div>
+
+        <div class="recipe" id="recipe2">
+            <h2>Buffalo Tallow Balm</h2>
+            <img src="https://example.com/buffalo-tallow-balm.jpg" alt="Jar of buffalo tallow balm">
+            <p>Ingredients:</p>
+            <ul>
+                <li><span>1 cup</span> buffalo tallow</li>
+                <li><span>10 drops</span> essential oils (optional)</li>
+            </ul>
+            <p>Instructions:</p>
+            <ol>
+                <li>Melt buffalo tallow in a double boiler.</li>
+                <li>Add essential oils and stir.</li>
+                <li>Pour into a jar and let cool.</li>
+            </ol>
+        </div>
+
+        <h2>Cooking Video</h2>
+        <iframe class="video" src="https://www.youtube.com/embed/your-video-id" title="Cooking Video" frameborder="0" allowfullscreen></iframe>
+    </main>
+
+    <footer>
+        <p>Thanks for visiting!</p>
+    </footer>
+</body>
+</html>
