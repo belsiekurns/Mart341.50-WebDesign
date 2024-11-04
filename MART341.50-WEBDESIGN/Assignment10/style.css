@@ -1,0 +1,65 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the whole page */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f4f4f4; /* Light grey background color */
+    color: #333; /* Dark grey text color for readability */
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50; /* Green background for the header */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding around the header */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none; /* Removes bullet points from the list */
+    padding: 0; /* Removes padding from the list */
+}
+
+/* Navigation list items */
+nav ul li {
+    display: inline; /* Displays list items in a line */
+    margin-right: 15px; /* Space between navigation items */
+}
+
+/* Heading styles */
+h1, h2 {
+    margin-bottom: 10px; /* Space below headings */
+}
+
+/* Section styles */
+section {
+    margin: 20px; /* Margin around the section */
+    padding: 15px; /* Padding inside the section */
+    background: white; /* White background for sections */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+/* Styles for the main image */
+.hero-image {
+    width: 100%; /* Full width of the container */
+    max-width: 600px; /* Limits the width to 600px */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Gallery styles */
+.gallery {
+    display: grid; /* Uses grid layout for gallery */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 10px; /* Space between grid items */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Centers the footer text */
+    padding: 10px; /* Padding inside the footer */
+    background-color: #4CAF50; /* Green background for the footer */
+    color: white; /* White text color */
+    position: relative; /* Allows for positioning relative to parent */
+    bottom: 0; /* Aligns footer to bottom */
+    width: 100%; /* Full width of the footer */
+}
