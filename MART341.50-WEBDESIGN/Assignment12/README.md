@@ -22,6 +22,4 @@ I styled buttons and links to make them more interactive and visually appealing.
 ### 5. Box Shadows and Borders  
 Added subtle shadows to sections for depth and a modern look. Rounded borders make the design softer and more inviting.  
 
----
 
-Let me know if you'd like me to adjust anything further! This structure is ready for you to customize or present as is.
