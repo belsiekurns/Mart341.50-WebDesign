@@ -1,0 +1,82 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styles */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin: 10px 0;
+}
+
+.contact-btn {
+  background-color: #5f2f7f; /* purple color */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* About Section */
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.headshot {
+  flex: 1;
+}
+
+.headshot-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid purple; /* purple outline */
+}
+
+.bio {
+  flex: 2;
+}
+
+.bio p {
+  margin-bottom: 15px;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services li {
+  margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
