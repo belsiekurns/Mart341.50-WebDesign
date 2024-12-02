@@ -1,0 +1,97 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header p {
+    margin: 10px 0;
+  }
+  
+  /* Navigation Styles */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background: #444;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Contact Page Styles */
+  .contact {
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+  }
+  
+  .contact-info a {
+    color: #5f2f7f; /* Same purple color */
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
