@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Kelsie Burns</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,26 +19,41 @@
         </nav>
     </header>
 
-    <main>
-        <section class="contact-section">
-            <h1>Contact Kelsie</h1>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+    <section>
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Fill out the form below or visit us at our location:</p>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+        <!-- Contact Form -->
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
 
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-    </main>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Embedded Google Map -->
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.1408027006396!2d-113.9847034237101!3d46.86060143919427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535dcc3413abc31d%3A0x5a5373da5d9ea43c!2s32%20Campus%20Dr%2C%20Missoula%2C%20MT%2059801!5e0!3m2!1sen!2sus!4v1734134413498!5m2!1sen!2sus" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Kelsie Burns. All Rights Reserved.</p>
+        <p>&copy; 2024 Your Business Name. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
